@@ -189,6 +189,7 @@
     //create the view controller from nib
 	//_keyBoardViewController = [[keyBoardViewController alloc] init];
         _keyBoardViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"keyBoardViewController"];
+    
     //[self.keyBoardViewController
 	
     

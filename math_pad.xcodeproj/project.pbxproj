@@ -152,9 +152,9 @@
 				564C34EC156CDDB4009B18F8 /* registerViewController.h */,
 				564C34ED156CDDB4009B18F8 /* registerViewController.m */,
 				564C34E4156CDAA8009B18F8 /* loginViewController.m */,
-				564C34BF156CD46C009B18F8 /* MainStoryboard.storyboard */,
 				21A5C95315771ED700997269 /* keyBoardViewController.h */,
 				21A5C95415771ED700997269 /* keyBoardViewController.m */,
+				564C34BF156CD46C009B18F8 /* MainStoryboard.storyboard */,
 				564C34AB156CD46C009B18F8 /* Supporting Files */,
 			);
 			path = math_pad;

@@ -56,6 +56,8 @@
     
     [super viewDidLoad];
     m_answerString = [[NSMutableString alloc]init];
+    self.view.frame = CGRectMake(0, 0, 353, 212);
+
 	// Do any additional setup after loading the view.
     //NSLog(@"in viewDidLoad %@",self.view);
     //NSLog(@"viewDidLoad out ");
