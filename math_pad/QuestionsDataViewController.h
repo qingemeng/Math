@@ -26,6 +26,7 @@
 @property (strong, nonatomic) UIPopoverController *popKeyboardController;
 
 - (void)titleChanged:(NSString *)Title;
+- (void)finish;
 
 
 

@@ -11,6 +11,7 @@
 @protocol keyBoardDelegate <NSObject>
 
 - (void)titleChanged:(NSString *)Title;
+- (void)finish;
 
 @end
 
@@ -33,6 +34,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *biggerThan;
 @property (strong, nonatomic) IBOutlet UIButton *point;
 @property (strong, nonatomic) IBOutlet UIButton *clear;
+@property (strong, nonatomic) IBOutlet UIButton *done;
 @property (strong, nonatomic) NSMutableString *answerString;
 @property (nonatomic, assign) id<keyBoardDelegate> delegate;
 
@@ -40,6 +42,7 @@
 - (IBAction)clear:(UIButton *)sender;
 
 - (void)titleChanged:(NSString *)Title;
+- (IBAction)inputDone:(UIButton *)sender;
 
 
 @end

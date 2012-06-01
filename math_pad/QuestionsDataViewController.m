@@ -229,5 +229,10 @@
     
 }
 
+-(void)finish
+{
+    [self.popKeyboardController dismissPopoverAnimated:YES];
+}
+
 
 @end

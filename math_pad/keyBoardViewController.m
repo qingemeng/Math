@@ -15,6 +15,7 @@
 
 @implementation keyBoardViewController
 @synthesize clear;
+@synthesize done;
 @synthesize key0;
 @synthesize key1;
 @synthesize key2;
@@ -83,6 +84,7 @@
     [self setKey0:nil];
     [self setPoint:nil];
     [self setClear:nil];
+    [self setDone:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -107,5 +109,9 @@
     NSLog(@"ansStr %@" , self.answerString);
     [delegate titleChanged:self.answerString];
 
+}
+- (IBAction)inputDone:(UIButton *)sender 
+{
+    [delegate finish];
 }
 @end
