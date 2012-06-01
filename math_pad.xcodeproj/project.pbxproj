@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		219A2BAF1573613C009CB23B /* QuestionsDataViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 219A2BAE1573613C009CB23B /* QuestionsDataViewControllerTest.m */; };
+		219A2BB315737AB3009CB23B /* QuestionsModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 219A2BB215737AB3009CB23B /* QuestionsModelController.m */; };
+		21A5C95515771ED700997269 /* keyBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A5C95415771ED700997269 /* keyBoardViewController.m */; };
+		21A5C95615771ED700997269 /* keyBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A5C95415771ED700997269 /* keyBoardViewController.m */; };
 		564C34A5156CD46C009B18F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564C34A4156CD46C009B18F8 /* UIKit.framework */; };
 		564C34A7156CD46C009B18F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564C34A6156CD46C009B18F8 /* Foundation.framework */; };
 		564C34A9156CD46C009B18F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564C34A8156CD46C009B18F8 /* CoreGraphics.framework */; };
@@ -39,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		219A2BAD1573613C009CB23B /* QuestionsDataViewControllerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionsDataViewControllerTest.h; sourceTree = "<group>"; };
+		219A2BAE1573613C009CB23B /* QuestionsDataViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionsDataViewControllerTest.m; sourceTree = "<group>"; };
+		219A2BB115737AB3009CB23B /* QuestionsModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionsModelController.h; sourceTree = "<group>"; };
+		219A2BB215737AB3009CB23B /* QuestionsModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionsModelController.m; sourceTree = "<group>"; };
+		21A5C95315771ED700997269 /* keyBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keyBoardViewController.h; sourceTree = "<group>"; };
+		21A5C95415771ED700997269 /* keyBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = keyBoardViewController.m; sourceTree = "<group>"; };
 		564C34A0156CD46C009B18F8 /* math_pad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = math_pad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		564C34A4156CD46C009B18F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		564C34A6156CD46C009B18F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -143,6 +153,8 @@
 				564C34ED156CDDB4009B18F8 /* registerViewController.m */,
 				564C34E4156CDAA8009B18F8 /* loginViewController.m */,
 				564C34BF156CD46C009B18F8 /* MainStoryboard.storyboard */,
+				21A5C95315771ED700997269 /* keyBoardViewController.h */,
+				21A5C95415771ED700997269 /* keyBoardViewController.m */,
 				564C34AB156CD46C009B18F8 /* Supporting Files */,
 			);
 			path = math_pad;
@@ -165,6 +177,10 @@
 				564C34D4156CD46C009B18F8 /* math_padTests.h */,
 				564C34D5156CD46C009B18F8 /* math_padTests.m */,
 				564C34CF156CD46C009B18F8 /* Supporting Files */,
+				219A2BAD1573613C009CB23B /* QuestionsDataViewControllerTest.h */,
+				219A2BAE1573613C009CB23B /* QuestionsDataViewControllerTest.m */,
+				219A2BB115737AB3009CB23B /* QuestionsModelController.h */,
+				219A2BB215737AB3009CB23B /* QuestionsModelController.m */,
 			);
 			path = math_padTests;
 			sourceTree = "<group>";
@@ -293,6 +309,7 @@
 				564C3513156F1AB5009B18F8 /* QuestionsDataViewController.m in Sources */,
 				564C3514156F1AB5009B18F8 /* QuestionsModelController.m in Sources */,
 				564C3515156F1AB5009B18F8 /* QuestionsRootViewController.m in Sources */,
+				21A5C95515771ED700997269 /* keyBoardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +318,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				564C34D6156CD46C009B18F8 /* math_padTests.m in Sources */,
+				219A2BAF1573613C009CB23B /* QuestionsDataViewControllerTest.m in Sources */,
+				219A2BB315737AB3009CB23B /* QuestionsModelController.m in Sources */,
+				21A5C95615771ED700997269 /* keyBoardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

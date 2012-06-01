@@ -32,7 +32,7 @@
 
 - (id)init
 {
-    numOfQuestionsPerPage =6;
+    numOfQuestionsPerPage = 6;
     self = [super init];
     if (self) {
         // Create the data model.
