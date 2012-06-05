@@ -22,6 +22,7 @@
 @synthesize popKeyboardController = _popKeyBoardController;
 @synthesize btn_active;
 @synthesize btn_activeIndex;
+//@synthesize swipeRight = m_swipeRight;
 
 
 - (void)viewDidLoad
@@ -32,9 +33,8 @@
     [self loadQuestions];
     blanks = [[NSMutableArray alloc] init];
     answerBtns =[[NSMutableArray alloc] init];
-   
-  
-    
+   // m_swipeRight = [[UIGestureRecognizer alloc] initWithTarget:self action:@selector(clearTheAnswer)];
+
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -678,6 +678,7 @@
         
   
         [lbl_eachAnswerLabel addTarget:self action:@selector(popOut:) forControlEvents:UIControlEventTouchUpInside];
+        [lbl_eachAnswerLabel addTarget:self action:@selector(clearTheAnswer:) forControlEvents:UIControlEventTouchDragInside];
        
         [cell.contentView addSubview:lbl_eachAnswerLabel];
          i ++;
@@ -736,6 +737,12 @@
     
     
     
+}
+
+- (void)clearTheAnswer:(UIButton *)sender
+{
+    [sender setTitle:@"" forState:(UIControlStateNormal)];
+    [[blanks objectAtIndex:[answerBtns indexOfObject:sender]] setTitle:@"(  )" forState:(UIControlStateNormal)];
 }
 
 //implementing keyboardProtocol

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "keyBoardViewController.h"
 
-@interface QuestionsDataViewController : UIViewController <UITableViewDelegate, UITableViewDataSource,keyBoardDelegate,UIPopoverControllerDelegate,UIGestureRecognizerDelegate>
+@interface QuestionsDataViewController : UIViewController <UITableViewDelegate, UITableViewDataSource,keyBoardDelegate,UIPopoverControllerDelegate>
 {
     NSMutableArray * questions; 
     char veryfier;
@@ -27,12 +27,14 @@
     NSInteger j;
     NSMutableArray * blanks; 
     NSInteger numOfBlank;
+    NSInteger basePointX;
+    CGSize theBlankSize;
 }
 
 - (void)loadQuestions;
 - (IBAction)buttonPressed:(id)sender;
 - (IBAction)popOut:(id)sender;
-- (void)clearTheAnswer:(UIButton *) sender;
+- (void)drawButton;
 
 @property (strong,nonatomic) IBOutlet UIButton *temp;
 @property (strong,nonatomic) keyBoardViewController *keyBoardViewController;
@@ -42,7 +44,7 @@
 @property (strong, nonatomic) id dataObject;
 @property (strong, nonatomic) NSMutableArray * allQuestions;
 @property (strong, nonatomic) UIPopoverController *popKeyboardController;
-//@property (strong, nonatomic) UIGestureRecognizer *swipeRight;
+
 
 - (void)titleChanged:(NSString *)Title;
 

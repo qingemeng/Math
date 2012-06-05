@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5608BF6B15788FF900C797CD /* keyBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5608BF6A15788FF900C797CD /* keyBoardViewController.m */; };
+		564C34A5156CD46C009B18F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564C34A4156CD46C009B18F8 /* UIKit.framework */; };
+		564C34A7156CD46C009B18F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564C34A6156CD46C009B18F8 /* Foundation.framework */; };
+		564C34A9156CD46C009B18F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564C34A8156CD46C009B18F8 /* CoreGraphics.framework */; };
+		564C34AF156CD46C009B18F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 564C34AD156CD46C009B18F8 /* InfoPlist.strings */; };
+		564C34B1156CD46C009B18F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 564C34B0156CD46C009B18F8 /* main.m */; };
+		564C34B5156CD46C009B18F8 /* PageAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 564C34B4156CD46C009B18F8 /* PageAppAppDelegate.m */; };
+		564C34C1156CD46C009B18F8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564C34BF156CD46C009B18F8 /* MainStoryboard.storyboard */; };
+		564C34C9156CD46C009B18F8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564C34C8156CD46C009B18F8 /* SenTestingKit.framework */; };
+		564C34CA156CD46C009B18F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564C34A4156CD46C009B18F8 /* UIKit.framework */; };
+		564C34CB156CD46C009B18F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564C34A6156CD46C009B18F8 /* Foundation.framework */; };
+		564C34D3156CD46C009B18F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 564C34D1156CD46C009B18F8 /* InfoPlist.strings */; };
+		564C34D6156CD46C009B18F8 /* math_padTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 564C34D5156CD46C009B18F8 /* math_padTests.m */; };
+		564C34E5156CDAA8009B18F8 /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564C34E4156CDAA8009B18F8 /* loginViewController.m */; };
+		564C34EE156CDDB4009B18F8 /* registerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564C34ED156CDDB4009B18F8 /* registerViewController.m */; };
+		564C34F8156CEB1D009B18F8 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 564C34F7156CEB1D009B18F8 /* libsqlite3.0.dylib */; };
+		564C3513156F1AB5009B18F8 /* QuestionsDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564C350E156F1AB4009B18F8 /* QuestionsDataViewController.m */; };
+		564C3514156F1AB5009B18F8 /* QuestionsModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564C3510156F1AB4009B18F8 /* QuestionsModelController.m */; };
+		564C3515156F1AB5009B18F8 /* QuestionsRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564C3512156F1AB4009B18F8 /* QuestionsRootViewController.m */; };
+		56CFB2F0157B022E006C9155 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564C34A4156CD46C009B18F8 /* UIKit.framework */; };
+		56CFB2F1157B022E006C9155 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564C34A6156CD46C009B18F8 /* Foundation.framework */; };
+		56CFB2F2157B022E006C9155 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564C34A8156CD46C009B18F8 /* CoreGraphics.framework */; };
+		56CFB30B157B022E006C9155 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564C34C8156CD46C009B18F8 /* SenTestingKit.framework */; };
+		56CFB30C157B022E006C9155 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564C34A4156CD46C009B18F8 /* UIKit.framework */; };
+		56CFB30D157B022E006C9155 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564C34A6156CD46C009B18F8 /* Foundation.framework */; };
+		56CFB326157B02AA006C9155 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564C34C8156CD46C009B18F8 /* SenTestingKit.framework */; };
+		56CFB327157B02AB006C9155 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564C34A4156CD46C009B18F8 /* UIKit.framework */; };
+		56CFB328157B02AB006C9155 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564C34A6156CD46C009B18F8 /* Foundation.framework */; };
+		56CFB32E157B02AB006C9155 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56CFB32C157B02AB006C9155 /* InfoPlist.strings */; };
+		56CFB331157B02AB006C9155 /* math_padTests1.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CFB330157B02AB006C9155 /* math_padTests1.m */; };
+		56EAD736156F1F0900BD9463 /* mathTestDatabase.sql in Resources */ = {isa = PBXBuildFile; fileRef = 56EAD735156F1F0900BD9463 /* mathTestDatabase.sql */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		564C34CC156CD46C009B18F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 564C3497156CD46C009B18F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564C349F156CD46C009B18F8;
+			remoteInfo = math_pad;
+		};
+		56CFB30E157B022E006C9155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 564C3497156CD46C009B18F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56CFB2ED157B022D006C9155;
+			remoteInfo = tester;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5608BF6915788FF900C797CD /* keyBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keyBoardViewController.h; sourceTree = "<group>"; };
+		5608BF6A15788FF900C797CD /* keyBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = keyBoardViewController.m; sourceTree = "<group>"; };
+		564C34A0156CD46C009B18F8 /* math_pad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = math_pad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		564C34A4156CD46C009B18F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		564C34A6156CD46C009B18F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		564C34A8156CD46C009B18F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		564C34AC156CD46C009B18F8 /* math_pad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "math_pad-Info.plist"; sourceTree = "<group>"; };
+		564C34AE156CD46C009B18F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		564C34B0156CD46C009B18F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		564C34B2156CD46C009B18F8 /* math_pad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "math_pad-Prefix.pch"; sourceTree = "<group>"; };
+		564C34B3156CD46C009B18F8 /* PageAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageAppAppDelegate.h; sourceTree = "<group>"; };
+		564C34B4156CD46C009B18F8 /* PageAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageAppAppDelegate.m; sourceTree = "<group>"; };
+		564C34C0156CD46C009B18F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		564C34C7156CD46C009B18F8 /* math_padTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = math_padTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		564C34C8156CD46C009B18F8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		564C34D0156CD46C009B18F8 /* math_padTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "math_padTests-Info.plist"; sourceTree = "<group>"; };
+		564C34D2156CD46C009B18F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		564C34D4156CD46C009B18F8 /* math_padTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = math_padTests.h; sourceTree = "<group>"; };
+		564C34D5156CD46C009B18F8 /* math_padTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = math_padTests.m; sourceTree = "<group>"; };
+		564C34E3156CDAA8009B18F8 /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		564C34E4156CDAA8009B18F8 /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		564C34EC156CDDB4009B18F8 /* registerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registerViewController.h; sourceTree = "<group>"; };
+		564C34ED156CDDB4009B18F8 /* registerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = registerViewController.m; sourceTree = "<group>"; };
+		564C34F7156CEB1D009B18F8 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		564C350D156F1AB4009B18F8 /* QuestionsDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionsDataViewController.h; sourceTree = "<group>"; };
+		564C350E156F1AB4009B18F8 /* QuestionsDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionsDataViewController.m; sourceTree = "<group>"; };
+		564C350F156F1AB4009B18F8 /* QuestionsModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionsModelController.h; sourceTree = "<group>"; };
+		564C3510156F1AB4009B18F8 /* QuestionsModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionsModelController.m; sourceTree = "<group>"; };
+		564C3511156F1AB4009B18F8 /* QuestionsRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionsRootViewController.h; sourceTree = "<group>"; };
+		564C3512156F1AB4009B18F8 /* QuestionsRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionsRootViewController.m; sourceTree = "<group>"; };
+		56CFB2EE157B022E006C9155 /* tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56CFB30A157B022E006C9155 /* testerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56CFB325157B02AA006C9155 /* math_padTests1.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = math_padTests1.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56CFB32B157B02AB006C9155 /* math_padTests1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "math_padTests1-Info.plist"; sourceTree = "<group>"; };
+		56CFB32D157B02AB006C9155 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56CFB32F157B02AB006C9155 /* math_padTests1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = math_padTests1.h; sourceTree = "<group>"; };
+		56CFB330157B02AB006C9155 /* math_padTests1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = math_padTests1.m; sourceTree = "<group>"; };
+		56CFB332157B02AB006C9155 /* math_padTests1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "math_padTests1-Prefix.pch"; sourceTree = "<group>"; };
+		56EAD735156F1F0900BD9463 /* mathTestDatabase.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = mathTestDatabase.sql; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		564C349D156CD46C009B18F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564C34F8156CEB1D009B18F8 /* libsqlite3.0.dylib in Frameworks */,
+				564C34A5156CD46C009B18F8 /* UIKit.framework in Frameworks */,
+				564C34A7156CD46C009B18F8 /* Foundation.framework in Frameworks */,
+				564C34A9156CD46C009B18F8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564C34C3156CD46C009B18F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564C34C9156CD46C009B18F8 /* SenTestingKit.framework in Frameworks */,
+				564C34CA156CD46C009B18F8 /* UIKit.framework in Frameworks */,
+				564C34CB156CD46C009B18F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CFB2EB157B022D006C9155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CFB2F0157B022E006C9155 /* UIKit.framework in Frameworks */,
+				56CFB2F1157B022E006C9155 /* Foundation.framework in Frameworks */,
+				56CFB2F2157B022E006C9155 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CFB306157B022E006C9155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CFB30B157B022E006C9155 /* SenTestingKit.framework in Frameworks */,
+				56CFB30C157B022E006C9155 /* UIKit.framework in Frameworks */,
+				56CFB30D157B022E006C9155 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CFB321157B02AA006C9155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CFB326157B02AA006C9155 /* SenTestingKit.framework in Frameworks */,
+				56CFB327157B02AB006C9155 /* UIKit.framework in Frameworks */,
+				56CFB328157B02AB006C9155 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		564C3495156CD46C009B18F8 = {
+			isa = PBXGroup;
+			children = (
+				564C34AA156CD46C009B18F8 /* math_pad */,
+				564C34CE156CD46C009B18F8 /* math_padTests */,
+				56CFB329157B02AB006C9155 /* math_padTests1 */,
+				564C34A3156CD46C009B18F8 /* Frameworks */,
+				564C34A1156CD46C009B18F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		564C34A1156CD46C009B18F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				564C34A0156CD46C009B18F8 /* math_pad.app */,
+				564C34C7156CD46C009B18F8 /* math_padTests.octest */,
+				56CFB2EE157B022E006C9155 /* tester.app */,
+				56CFB30A157B022E006C9155 /* testerTests.octest */,
+				56CFB325157B02AA006C9155 /* math_padTests1.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		564C34A3156CD46C009B18F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				564C34F7156CEB1D009B18F8 /* libsqlite3.0.dylib */,
+				564C34A4156CD46C009B18F8 /* UIKit.framework */,
+				564C34A6156CD46C009B18F8 /* Foundation.framework */,
+				564C34A8156CD46C009B18F8 /* CoreGraphics.framework */,
+				564C34C8156CD46C009B18F8 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		564C34AA156CD46C009B18F8 /* math_pad */ = {
+			isa = PBXGroup;
+			children = (
+				56EAD735156F1F0900BD9463 /* mathTestDatabase.sql */,
+				564C350D156F1AB4009B18F8 /* QuestionsDataViewController.h */,
+				564C350E156F1AB4009B18F8 /* QuestionsDataViewController.m */,
+				5608BF6915788FF900C797CD /* keyBoardViewController.h */,
+				5608BF6A15788FF900C797CD /* keyBoardViewController.m */,
+				564C350F156F1AB4009B18F8 /* QuestionsModelController.h */,
+				564C3510156F1AB4009B18F8 /* QuestionsModelController.m */,
+				564C3511156F1AB4009B18F8 /* QuestionsRootViewController.h */,
+				564C3512156F1AB4009B18F8 /* QuestionsRootViewController.m */,
+				564C34B3156CD46C009B18F8 /* PageAppAppDelegate.h */,
+				564C34B4156CD46C009B18F8 /* PageAppAppDelegate.m */,
+				564C34E3156CDAA8009B18F8 /* loginViewController.h */,
+				564C34EC156CDDB4009B18F8 /* registerViewController.h */,
+				564C34ED156CDDB4009B18F8 /* registerViewController.m */,
+				564C34E4156CDAA8009B18F8 /* loginViewController.m */,
+				564C34BF156CD46C009B18F8 /* MainStoryboard.storyboard */,
+				564C34AB156CD46C009B18F8 /* Supporting Files */,
+			);
+			path = math_pad;
+			sourceTree = "<group>";
+		};
+		564C34AB156CD46C009B18F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				564C34AC156CD46C009B18F8 /* math_pad-Info.plist */,
+				564C34AD156CD46C009B18F8 /* InfoPlist.strings */,
+				564C34B0156CD46C009B18F8 /* main.m */,
+				564C34B2156CD46C009B18F8 /* math_pad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		564C34CE156CD46C009B18F8 /* math_padTests */ = {
+			isa = PBXGroup;
+			children = (
+				564C34D4156CD46C009B18F8 /* math_padTests.h */,
+				564C34D5156CD46C009B18F8 /* math_padTests.m */,
+				564C34CF156CD46C009B18F8 /* Supporting Files */,
+			);
+			path = math_padTests;
+			sourceTree = "<group>";
+		};
+		564C34CF156CD46C009B18F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				564C34D0156CD46C009B18F8 /* math_padTests-Info.plist */,
+				564C34D1156CD46C009B18F8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56CFB329157B02AB006C9155 /* math_padTests1 */ = {
+			isa = PBXGroup;
+			children = (
+				56CFB32F157B02AB006C9155 /* math_padTests1.h */,
+				56CFB330157B02AB006C9155 /* math_padTests1.m */,
+				56CFB32A157B02AB006C9155 /* Supporting Files */,
+			);
+			path = math_padTests1;
+			sourceTree = "<group>";
+		};
+		56CFB32A157B02AB006C9155 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56CFB32B157B02AB006C9155 /* math_padTests1-Info.plist */,
+				56CFB32C157B02AB006C9155 /* InfoPlist.strings */,
+				56CFB332157B02AB006C9155 /* math_padTests1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		564C349F156CD46C009B18F8 /* math_pad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564C34D9156CD46C009B18F8 /* Build configuration list for PBXNativeTarget "math_pad" */;
+			buildPhases = (
+				564C349C156CD46C009B18F8 /* Sources */,
+				564C349D156CD46C009B18F8 /* Frameworks */,
+				564C349E156CD46C009B18F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = math_pad;
+			productName = math_pad;
+			productReference = 564C34A0156CD46C009B18F8 /* math_pad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		564C34C6156CD46C009B18F8 /* math_padTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564C34DC156CD46C009B18F8 /* Build configuration list for PBXNativeTarget "math_padTests" */;
+			buildPhases = (
+				564C34C2156CD46C009B18F8 /* Sources */,
+				564C34C3156CD46C009B18F8 /* Frameworks */,
+				564C34C4156CD46C009B18F8 /* Resources */,
+				564C34C5156CD46C009B18F8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564C34CD156CD46C009B18F8 /* PBXTargetDependency */,
+			);
+			name = math_padTests;
+			productName = math_padTests;
+			productReference = 564C34C7156CD46C009B18F8 /* math_padTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		56CFB2ED157B022D006C9155 /* tester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56CFB31D157B022E006C9155 /* Build configuration list for PBXNativeTarget "tester" */;
+			buildPhases = (
+				56CFB2EA157B022D006C9155 /* Sources */,
+				56CFB2EB157B022D006C9155 /* Frameworks */,
+				56CFB2EC157B022D006C9155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tester;
+			productName = tester;
+			productReference = 56CFB2EE157B022E006C9155 /* tester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56CFB309157B022E006C9155 /* testerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56CFB31E157B022E006C9155 /* Build configuration list for PBXNativeTarget "testerTests" */;
+			buildPhases = (
+				56CFB305157B022E006C9155 /* Sources */,
+				56CFB306157B022E006C9155 /* Frameworks */,
+				56CFB307157B022E006C9155 /* Resources */,
+				56CFB308157B022E006C9155 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56CFB30F157B022E006C9155 /* PBXTargetDependency */,
+			);
+			name = testerTests;
+			productName = testerTests;
+			productReference = 56CFB30A157B022E006C9155 /* testerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		56CFB324157B02AA006C9155 /* math_padTests1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56CFB333157B02AB006C9155 /* Build configuration list for PBXNativeTarget "math_padTests1" */;
+			buildPhases = (
+				56CFB320157B02AA006C9155 /* Sources */,
+				56CFB321157B02AA006C9155 /* Frameworks */,
+				56CFB322157B02AA006C9155 /* Resources */,
+				56CFB323157B02AA006C9155 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = math_padTests1;
+			productName = math_padTests1;
+			productReference = 56CFB325157B02AA006C9155 /* math_padTests1.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		564C3497156CD46C009B18F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PageApp;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 564C349A156CD46C009B18F8 /* Build configuration list for PBXProject "math_pad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 564C3495156CD46C009B18F8;
+			productRefGroup = 564C34A1156CD46C009B18F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				564C349F156CD46C009B18F8 /* math_pad */,
+				564C34C6156CD46C009B18F8 /* math_padTests */,
+				56CFB2ED157B022D006C9155 /* tester */,
+				56CFB309157B022E006C9155 /* testerTests */,
+				56CFB324157B02AA006C9155 /* math_padTests1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		564C349E156CD46C009B18F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564C34AF156CD46C009B18F8 /* InfoPlist.strings in Resources */,
+				564C34C1156CD46C009B18F8 /* MainStoryboard.storyboard in Resources */,
+				56EAD736156F1F0900BD9463 /* mathTestDatabase.sql in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564C34C4156CD46C009B18F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564C34D3156CD46C009B18F8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CFB2EC157B022D006C9155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CFB307157B022E006C9155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CFB322157B02AA006C9155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CFB32E157B02AB006C9155 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		564C34C5156CD46C009B18F8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		56CFB308157B022E006C9155 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		56CFB323157B02AA006C9155 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		564C349C156CD46C009B18F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564C34B1156CD46C009B18F8 /* main.m in Sources */,
+				564C34B5156CD46C009B18F8 /* PageAppAppDelegate.m in Sources */,
+				564C34E5156CDAA8009B18F8 /* loginViewController.m in Sources */,
+				564C34EE156CDDB4009B18F8 /* registerViewController.m in Sources */,
+				564C3513156F1AB5009B18F8 /* QuestionsDataViewController.m in Sources */,
+				564C3514156F1AB5009B18F8 /* QuestionsModelController.m in Sources */,
+				564C3515156F1AB5009B18F8 /* QuestionsRootViewController.m in Sources */,
+				5608BF6B15788FF900C797CD /* keyBoardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564C34C2156CD46C009B18F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564C34D6156CD46C009B18F8 /* math_padTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CFB2EA157B022D006C9155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CFB305157B022E006C9155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CFB320157B02AA006C9155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CFB331157B02AB006C9155 /* math_padTests1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		564C34CD156CD46C009B18F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 564C349F156CD46C009B18F8 /* math_pad */;
+			targetProxy = 564C34CC156CD46C009B18F8 /* PBXContainerItemProxy */;
+		};
+		56CFB30F157B022E006C9155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56CFB2ED157B022D006C9155 /* tester */;
+			targetProxy = 56CFB30E157B022E006C9155 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		564C34AD156CD46C009B18F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564C34AE156CD46C009B18F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		564C34BF156CD46C009B18F8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564C34C0156CD46C009B18F8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		564C34D1156CD46C009B18F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564C34D2156CD46C009B18F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		56CFB32C157B02AB006C9155 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56CFB32D157B02AB006C9155 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		564C34D7156CD46C009B18F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		564C34D8156CD46C009B18F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		564C34DA156CD46C009B18F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "math_pad/math_pad-Prefix.pch";
+				INFOPLIST_FILE = "math_pad/math_pad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		564C34DB156CD46C009B18F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "math_pad/math_pad-Prefix.pch";
+				INFOPLIST_FILE = "math_pad/math_pad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		564C34DD156CD46C009B18F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/math_pad.app/math_pad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "math_pad/math_pad-Prefix.pch";
+				INFOPLIST_FILE = "math_padTests/math_padTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		564C34DE156CD46C009B18F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/math_pad.app/math_pad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "math_pad/math_pad-Prefix.pch";
+				INFOPLIST_FILE = "math_padTests/math_padTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		56CFB319157B022E006C9155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tester/tester-Prefix.pch";
+				INFOPLIST_FILE = "tester/tester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		56CFB31A157B022E006C9155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tester/tester-Prefix.pch";
+				INFOPLIST_FILE = "tester/tester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		56CFB31B157B022E006C9155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tester.app/tester";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tester/tester-Prefix.pch";
+				INFOPLIST_FILE = "testerTests/testerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		56CFB31C157B022E006C9155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tester.app/tester";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tester/tester-Prefix.pch";
+				INFOPLIST_FILE = "testerTests/testerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		56CFB334157B02AB006C9155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "math_padTests1/math_padTests1-Prefix.pch";
+				INFOPLIST_FILE = "math_padTests1/math_padTests1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		56CFB335157B02AB006C9155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "math_padTests1/math_padTests1-Prefix.pch";
+				INFOPLIST_FILE = "math_padTests1/math_padTests1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		564C349A156CD46C009B18F8 /* Build configuration list for PBXProject "math_pad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564C34D7156CD46C009B18F8 /* Debug */,
+				564C34D8156CD46C009B18F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564C34D9156CD46C009B18F8 /* Build configuration list for PBXNativeTarget "math_pad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564C34DA156CD46C009B18F8 /* Debug */,
+				564C34DB156CD46C009B18F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564C34DC156CD46C009B18F8 /* Build configuration list for PBXNativeTarget "math_padTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564C34DD156CD46C009B18F8 /* Debug */,
+				564C34DE156CD46C009B18F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56CFB31D157B022E006C9155 /* Build configuration list for PBXNativeTarget "tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56CFB319157B022E006C9155 /* Debug */,
+				56CFB31A157B022E006C9155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56CFB31E157B022E006C9155 /* Build configuration list for PBXNativeTarget "testerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56CFB31B157B022E006C9155 /* Debug */,
+				56CFB31C157B022E006C9155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56CFB333157B02AB006C9155 /* Build configuration list for PBXNativeTarget "math_padTests1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56CFB334157B02AB006C9155 /* Debug */,
+				56CFB335157B02AB006C9155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 564C3497156CD46C009B18F8 /* Project object */;
+}
